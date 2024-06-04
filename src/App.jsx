@@ -19,7 +19,6 @@ function App() {
         }else {
           setValues(data)
           setIcon(data.weather[0].main)
-          console.log(data)
         }
       } )
       .catch( error => {
