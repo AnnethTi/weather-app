@@ -43,7 +43,7 @@ function App() {
     
     
     <div className='container'>
-      <h2>React Weather App</h2>
+      <h1>React Weather App</h1>
       <div className='row'>
         <input 
         onKeyDown={handleSearch}
@@ -69,7 +69,7 @@ function App() {
       )
       }
     </div>
-    
+  
     </>
   )
 }
